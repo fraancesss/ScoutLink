@@ -3,7 +3,6 @@ a {
     color: rgb(0, 0, 0);
     
 }
-
 h1 {
     font-family: cursive;
     text-align: left;
@@ -89,23 +88,5 @@ transform: scale(1.05);
     border-color: transparent;
 }
 .perfil ion-icon {
-  font-size: 30px
-}
-
-.menu-perfil summary {
-  text-align: center;
   font-size: 30px;
-  cursor: pointer;
-  padding: 10px;
-  border: 1px solid #f70e0e;
-  border-radius: 500px;
-  color: #000000;
-  transition: .5s;
-  width: 50px;
-  height: 2%;
-  background-color: #dc143c;
-}
-.menu-perfil summary {
-  list-style: none;
-  cursor: pointer;
 }
