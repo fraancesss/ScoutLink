@@ -68,23 +68,21 @@ nav a{
 .ScoutLink{
     display: flex;
     justify-content: center;
-height: 120px;
+height: 400px;
 padding: 7px;
 transition: 0.3s;
 border-radius:  20px;
 }
 
 .ScoutLink p {
-    font-size: 30px;
+    font-size: 27px;
     color: black;
-    margin: 20px 300px;
     text-align: center;
-
+    overflow: auto;
+    margin: 10px 150px;
 }
 
-.ScoutLink:hover{
-transform: scale(1.05);
-}
+
 
 .icon {
     border: 1px solid #666;

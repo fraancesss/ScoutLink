@@ -76,9 +76,6 @@ margin: 5px 35px;
 border: darkred solid 4px;
 }
 
-.ScoutLink:hover{
-transform: scale(1.05);
-}
 
 .icon {
     border: 1px solid #666;
