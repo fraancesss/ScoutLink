@@ -176,8 +176,9 @@ overflow: hidden;
   background-color: rgba(225, 20, 13, 0.806);
    display: flex;
    justify-content: center;
-   margin: 100px auto;
-    width: 90%;
+   margin: 100px 50px 100px 50px;
+    width: 95%;
+    padding: 20px 10px  10px 20px;
 }
 
 .topo-org{
@@ -190,7 +191,13 @@ overflow: hidden;
 width: 80px; 
 } 
 .topo-org h2 {
-font-size: 30px; 
+font-size: 40px;
+gap: 50px; 
+} 
+.Orgs p {
+font-size: 20px;
+gap: 50px; 
+margin: 20px 50px 20px 200px;
 } 
 
 .Botao-Org {
