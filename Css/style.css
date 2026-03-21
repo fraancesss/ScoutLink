@@ -54,8 +54,7 @@ height: 120px;
 padding: 7px;
 transition: 0.3s;
 border-radius:  20px;
- background-attachment: fixed;
- overflow: auto;
+background-attachment: fixed;
 }
 
 .menu-perfil summary {
@@ -123,6 +122,7 @@ background-color: #6e0909;
 }
 
 .menu{
+word-spacing: 200px;
     text-align: center;
     margin-top: 10px;
     background-color: black;
@@ -134,6 +134,7 @@ background-color: #6e0909;
 }
 
 .menu a {
+    margin: 10px 80px;
     display: inline-block;
     font-size: 20px;
     margin: 10px;
