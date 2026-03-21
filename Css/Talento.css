@@ -1,12 +1,13 @@
 
 a {
-    color: rgb(0, 0, 0);
+    color: black;
     
 }
 h1 {
-    font-family: cursive;
-    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
     scale: 100%;
+    font-size: 60px;
 }
 
 header {
@@ -25,9 +26,10 @@ transform: scale(1.05);
 }
 
 body{
-    background-color: white;
-    font-family: cursive;
+    background-color: #b4b4b4;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif ; 
     text-align: left;
+    
 }
 
 nav a{
@@ -36,6 +38,7 @@ nav a{
     border: 200px;
     padding: 8px 12px;
   border-radius: 5px;
+  font-size: 20px;
 }
 
 .menu{
@@ -45,27 +48,31 @@ nav a{
 
 .menu a {
     display: inline-block;
-    margin: 10px 85px;
-    padding: 8px 16px;
+    margin: 10px 80px;
+    padding: 8px 12px ;
     background-color: darkred;
     color: white;
     border-radius: 50px;
-    text-decoration: none;;
+    text-decoration: none;
 }
 
 .menu a:hover {
     background-color: rgba(126, 7, 7, 0.9);
     color: white;
     transition: 0.3s;
+    border: 4px solid red;
 }
 
 .ScoutLink{
-background-color: red;
-width: 520px;
+    display: flex;
+background-color: white;
+width: 500px;
 height: 120px;
 padding: 7px;
 transition: 0.3s;
 border-radius:  20px;
+margin: 5px 35px;
+border: darkred solid 4px;
 }
 
 .ScoutLink:hover{
@@ -85,9 +92,23 @@ transform: scale(1.05);
 .icon:hover {
     background-color: #dc143c;
     color: #fff;
-    border-color: white ;
-    border: 3px;
+    border-color: red;
+    border: 4px solid red;
 }
 .perfil ion-icon {
   font-size: 30px;
+}
+.ScoutLink img {
+    display: flex;
+ width: 100px;
+height: 100px;
+border-radius: 50%;
+margin: 10px;
+border: black solid 2px;
+}
+
+.ScoutLink p {
+    font-size: 30px;
+    color: black;
+    margin: 40px
 }
