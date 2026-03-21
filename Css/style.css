@@ -6,36 +6,44 @@ a img {
 }
 
 a {
-    color: black;
+    color: rgb(193, 39, 39);
     
 }
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    scale: 100%;
-    font-size: 60px;
+
+
+p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 45px;
+    color: #000000;
+    
 }
 
-header {
-     display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    margin-left: 20px;
 }
+
 header img {
 width: 200px;
 height: 150px;
 border-radius: 5px;
 transform: scale(1.05);
+}
 
-
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 body{
-    background-color:rgba(189, 188, 188, 0.89);
-    font-family: cursive;
+    background-color: #b4b4b4;
+    font-family: 'Poppins', sans-serif ;
     text-align: left;
-     background-image: url('img/ScoutLink Logo.png');
+     background-image: url('/img/ScoutLink Logo.png');
      background-repeat: no-repeat;
    background-position: 40% 10%;
     background-attachment: fixed;
@@ -52,15 +60,154 @@ nav a{
   border-radius: 5px;
 }
 
+footer {
+    background-color: rgba(0, 0, 0, 0.754);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    height: 100%;
+   
+}
+
+
+ .times {
+  background-color: #c31313bb;
+           width: 120px;
+           height: 180px;
+           padding: 40px;
+           border: 1px solid #c80e0e;
+           font-size: 25px;
+           text-align: center;
+           border-radius: 5px;
+           display: inline-block;
+           Align-items: stretch;
+}
+
+.times img {
+  border-radius: 5px;
+width: 120px; 
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+   
+ 
+.parte-de-cima{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.main{
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+.main p {
+    font-size: 120px;
+}
+    
+
 .ScoutLink{
-background-color: red;
-width: 520px;
-height: 120px;
+margin: 20px 30px 40px 50px;
+background-color: rgb(143, 16, 16);
+width: 90%;
+max-width: 1000px;
+height: auto;
 padding: 7px;
 transition: 0.3s;
-border-radius:  20px;
+border-radius:  10px;
 background-attachment: fixed;
+overflow: hidden;
+    padding: 10px;
+    box-shadow: #000000 0px 10px 20px;
+    font-size: 50px;
 }
+.ScoutLink p{
+    font-size: 35px;
+}
+
+
+.Profissional{
+margin: 170px 30px 200px 50px;
+position: relative;
+background-color: rgba(159, 2, 2, 0.56);
+ right: 0px;
+height: 150px;
+margin-left: 500px;
+border-radius:  10px;
+background-attachment: fixed;
+overflow: hidden;
+    padding: 10px;
+    box-shadow: #000000 0px 10px 20px;
+}
+
+.Profissional p {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #d5ce06;
+    text-align: center;
+    letter-spacing: 30px;
+}
+
+.Profissional-Org h1{
+    font-size: 80px;
+    background-color: rgba(159, 2, 2, 0.56);
+    color: #000000;
+    text-align: center;
+    letter-spacing: 10px;
+
+}
+
+.Orgs{
+  background-color: rgba(225, 20, 13, 0.806);
+   display: flex;
+   justify-content: center;
+   margin: 100px auto;
+    width: 90%;
+}
+
+.topo-org{
+    display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.topo-org img {
+width: 80px; 
+} 
+.topo-org h2 {
+font-size: 30px; 
+} 
+
+.Botao-Org {
+    margin-top: 15px;
+} 
+.Botao-Org button{
+    margin-right: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+} 
+.Botao-Org button:hover {
+    background-color:darkred;
+    transform: scale(1.05);
+}
+
 
 .menu-perfil summary {
   text-align: center;
@@ -136,6 +283,9 @@ word-spacing: 200px;
     left: 0;   
     width: 100%;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .menu a {
