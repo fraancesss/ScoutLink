@@ -5,10 +5,15 @@ a img {
     
 }
 
+a {
+    color: black;
+    
+}
 h1 {
-    font-family: cursive;
-    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
     scale: 100%;
+    font-size: 60px;
 }
 
 header {
