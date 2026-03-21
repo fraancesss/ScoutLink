@@ -32,13 +32,15 @@ transform: scale(1.05);
 }
 
 body{
-    background-color:rgba(0, 0, 0, 0.89);
+    background-color:rgba(189, 188, 188, 0.89);
     font-family: cursive;
     text-align: left;
-     background-image: url('/img/ScoutLink Logo.png');
+     background-image: url('img/ScoutLink Logo.png');
      background-repeat: no-repeat;
    background-position: 40% 10%;
     background-attachment: fixed;
+    margin: 0;
+    padding-top: 80px;
     
 }
 
@@ -50,29 +52,6 @@ nav a{
   border-radius: 5px;
 }
 
-.menu{
-    text-align: center;
-    margin-top: 10px;
-}
-
-.menu a {
-    display: inline-block;
-    font-size: 30px;
-    margin: 10px;
-    padding: 8px 15px;
-    background-color: rgba(207, 5, 5, 0.75);
-    color: black;
-    border-radius: 20px;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    background-color: rgba(126, 7, 7, 0.9);
-    color: white;
-    transition: 0.3s;
-    transform: scale(1.05);
-}
-
 .ScoutLink{
 background-color: red;
 width: 520px;
@@ -80,27 +59,32 @@ height: 120px;
 padding: 7px;
 transition: 0.3s;
 border-radius:  20px;
- background-attachment: fixed;
- overflow: auto;
+background-attachment: fixed;
 }
 
 .menu-perfil summary {
   text-align: center;
   font-size: 30px;
-  margin-left: 1665px;
+  position: fixed;
+  right: 50px;
+  top: 20px;
+  z-index: 2000;
   cursor: pointer;
   padding: 10px;
-  border: 1px solid #f70e0e;
-  border-radius: 500px;
+  border-radius: 10px;
   color: #000000;
   transition: .5s;
   width: 50px;
-  height: 2%;
+  height: 4%;
   background-color: #dc143c;
 }
 .menu-perfil summary {
   list-style: none;
   cursor: pointer;
+  position: fixed;
+  top: 14px;
+  right: 100px;
+  z-index: 2000;
 }
 
 .menu-perfil summary:hover {
@@ -109,17 +93,30 @@ border-radius:  20px;
   border-color: transparent;
   transform: scale(1.05);
 }
+.menu-perfil-opcao {
+    position: absolute;
+    right: 0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 180px;
+  background-color: rgba(126, 7, 7, 0.9);
+}
+
 
 .menu-perfil-opcao a { 
-     list-style: none;
-  cursor: pointer;
+    cursor: pointer;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 25px;
+    padding: 8px;
     border-radius: 5px;
     transition: 0.3s;
-    margin-left: 1600px;
-    background-color: rgba(126, 7, 7, 0.9);
+}
+
+.menu-perfil-opcao ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .menu-perfil-opcao a:hover{
@@ -127,4 +124,36 @@ transform: scale(1.05);
 background-color: #6e0909;
   color: #fff;
   border-color: transparent;
+}
+
+.menu{
+word-spacing: 200px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;   
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu a {
+    margin: 10px 80px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgba(207, 5, 5, 0.75);
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: rgba(126, 7, 7, 0.9);
+    color: white;
+    transition: 0.3s;
+    transform: scale(1.05);
 }
