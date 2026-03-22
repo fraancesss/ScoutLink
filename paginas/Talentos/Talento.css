@@ -1,8 +1,4 @@
 
-a {
-    color: black;
-    
-}
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
@@ -56,70 +52,6 @@ nav a{
     top: 0;
 }
 
-.menu-perfil summary {
-  text-align: center;
-  font-size: 30px;
-  position: fixed;
-  right: 50px;
-  top: 20px;
-  z-index: 2000;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 10px;
-  color: #000000;
-  transition: .5s;
-  width: 50px;
-  height: 4%;
-  background-color: #dc143c;
-}
-.menu-perfil summary {
-  list-style: none;
-  cursor: pointer;
-  position: fixed;
-  top: 14px;
-  right: 100px;
-  z-index: 2000;
-}
-
-.menu-perfil summary:hover {
-  background-color: #6e0909;
-  color: #fff;
-  border-color: transparent;
-  transform: scale(1.05);
-}
-.menu-perfil-opcao {
-    position: absolute;
-    right: 0;
-    border-radius: 10px;
-    padding: 10px;
-    width: 180px;
-  background-color: rgba(126, 7, 7, 0.9);
-}
-
-
-.menu-perfil-opcao a { 
-    cursor: pointer;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    padding: 8px;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.menu-perfil-opcao ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.menu-perfil-opcao a:hover{
-transform: scale(1.05);
-background-color: #6e0909;
-  color: #fff;
-  border-color: transparent;
-}
-
 .menu{
 word-spacing: 200px;
     text-align: center;
@@ -153,6 +85,69 @@ word-spacing: 200px;
     color: white;
     transition: 0.3s;
     transform: scale(1.05);
+}
+
+.menu-perfil summary {
+  text-align: center;
+  font-size: 30px;
+  position: fixed;
+  right: 50px;
+  top: 20px;
+  z-index: 2000;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  color: #000000;
+  transition: .5s;
+  width: 50px;
+  height: 4%;
+  background-color: #dc143c;
+  list-style: none;
+  cursor: pointer;
+  position: fixed;
+  top: 14px;
+  right: 100px;
+  z-index: 2000;
+}
+
+.menu-perfil summary:hover {
+  background-color: #6e0909;
+  color: #fff;
+  border-color: transparent;
+  transform: scale(1.05);
+}
+.menu-perfil-opcao {
+        position: fixed;
+    top: 80px;
+    right: 0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 180px;
+  background-color: rgba(126, 7, 7, 0.9);
+}
+
+
+.menu-perfil-opcao a { 
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu-perfil-opcao ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-perfil-opcao a:hover{
+transform: scale(1.05);
+background-color: #6e0909;
+  color: #fff;
+  border-color: transparent;
 }
 
 
