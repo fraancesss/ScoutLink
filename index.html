@@ -1,138 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<link rel="stylesheet" href="./Css/style.css">
-<title>ScoutLink</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>ScoutLink</title>
 </head>
+
 <body>
-    
-<video autoplay muted loop id="bg-video">
-  <source src="/video/7249-199191048_medium.mp4" type="video/mp4">
-</video>
+
+    <video autoplay muted loop id="bg-video">
+        <source src="/video/7249-199191048_medium.mp4" type="video/mp4">
+    </video>
+
+    <div class="Logo-img">
+        <img src="/img/ScoutLink-Logo.png" alt="ScoutLink Logo">
+    </div>
+    <header class="parte-de-cima">
+
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="paginas/Organização/organização.html">Organização</a>
+            <a href="paginas/talentos/talento.html">Talento</a>
+            <a href="paginas/Sobre/sobre.html">Sobre</a>
+
+            <details class="menu-perfil">
+                <summary> <i class="fa-solid fa-user"></i></summary>
+                <div class="menu-perfil-opcao">
+                    <ul>
+                        <li><a href="paginas/Perfil/perfil.html">Meu Perfil</a></li>
+
+                        <li><a href="paginas/Cadastro/cadastro.html">Cadastrar</a></li>
+
+                        <li><a href="paginas/Login/login.html">Login</a></li>
+
+                    </ul>
+                </div>
+            </details>
+        </nav>
+    </header>
 
 
-   <header class="parte-de-cima">
+    <main class="main">
+        <p>ScoutLink</p>
+    </main>
 
-<nav class="menu">
-    <a href="index.html">Inicio</a>
-    <a href="paginas/Organização/organização.html">Organização</a>
-    <a href="paginas/talentos/talento.html">Talento</a>
-    <a href="paginas/Sobre/sobre.html">Sobre</a>
 
-</nav>
-</header> 
-<details class="menu-perfil">
-        <summary>  <i class="fa-solid fa-user"></i></summary>
-        <div class="menu-perfil-opcao">
-        <ul>
-            <li><a href="paginas/Perfil/perfil.html">Meu Perfil</a></li> 
 
-            <li><a href="paginas/Cadastro/cadastro.html">Cadastrar</a></li>
 
-            <li><a href="paginas/Login/login.html">Login</a></li>
+    <section class="ScoutLink">
+        <p> O projeto
+            <strong>SCOUTLINK</strong>
+            desenvolvido pelo grupo
+            consiste na criação de uma aplicação web chamada ScoutLink,
+            voltada para o cenário competitivo de games, como eSports,
+            e de criação de conteúdo também. A proposta da plataforma é
+            uma ponte entre jogadores talentosos que desejam iniciar uma
+            carreira profissional no mundo dos games e entrar em organizações
+            ou equipes que estão em busca de novos talentos.
+    </section>
 
-            <li><a href="paginas/Configurações/configurações.html">Configurações</a></li>
-        </ul>
+    <section class="Profissional">
+        <p>
+            <strong>Vire um profissional</strong>
+        </p>
+    </section>
+
+    <section class="Profissional-Org">
+
+        <h1>Organizações em Destaque</h1>
+
+    </section>
+
+
+    <article class="Orgs">
+
+        <div class="topo-org">
+            <img src="img/furia.png" alt="Furia">
+            <h2>Furia </h2>
         </div>
-    </details>
+        <p>
+            A Furia é uma organização brasileira
+            de eSports fundada em 2017. Ela é conhecida por
+            sua presença em jogos como Counter-Strike:
+            Global Offensive (CS:GO), League of Legends,
+            Rainbow Six Siege, entre outros. A Furia tem
+            se destacado no cenário competitivo, conquistando
+            títulos e participando de grandes torneios
+            internacionais.
+        </p>
+        <div class="Botao-Org">
+            <button>Ver mais</button>
+            <button>Estatisticas</button>
+        </div>
+    </article>
+    <div class="box">
 
-<main class="main">
-    <p>ScoutLink</p>
-</main>
+        <div class="times">
+            <img src="img/mibr.jpg" alt="MIBR">
+            <h2>MIBR</h2>
+        </div>
+        <div class="times">
+            <img src="img/loud.jpg" alt="Loud">
+            <h2>Loud</h2>
+        </div>
+        <div class="times">
+            <img src="img/alanzoka.jpg" alt="Zokinhas">
+            <h2>Zoka</h2>
+        </div>
+    </div>
 
+    <footer>
+        <h2>Nosso projeto Website (ScoutLink)</h2>
+        <p>Todos os direitos reservados de produção vão para o grupo ScoutLink: Guilherme, Leonardo, Maria, Vinicius.
+        </p>
+        <form name="dados" id="dados" action="" method="post">
+            <fieldset>
+                <legend>Dados do usuário</legend>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Nome@gmail.com" required>
+                <label for="celular">Celular:</label>
+                <input type="tel" id="celular" name="celular" placeholder="(00) 00000-0000" required>
+                <h3>FEEDBACK</h3>
+                <h4>deixe sua opinião</h4>
+                <label for="mensagem">Digite sua mensagem:</label>
+                <br>
+                <textarea id="mensagem" name="mensagem" placeholder="Coloque sua mensagem aqui..."></textarea>
+                <br>
 
+                <button type="submit" onclick="alert ('formulario enviado com sucesso')">Enviar Dados</button>
+                <button type="reset">Limpar Formulário</button>
+            </fieldset>
+        </form>
+    </footer>
 
-
-<section class="ScoutLink">  
-<p> O projeto
-    <strong>SCOUTLINK</strong>
-     desenvolvido pelo grupo
-     consiste na criação de uma aplicação web chamada ScoutLink,
-      voltada para o cenário competitivo de games, como eSports, 
-      e de criação de conteúdo também. A proposta da plataforma é 
-      uma ponte entre jogadores talentosos que desejam iniciar uma
-     carreira profissional no mundo dos games e entrar em organizações
-      ou equipes que estão em busca de novos talentos.
-</section>
-
-<section class="Profissional">  
-<p>
-    <strong>Vire um profissional</strong>
-</p>
-</section>
-
-<section class="Profissional-Org">  
-
-    <h1>Organizações em Destaque</h1>
-
-</section>
-
-
-<article class="Orgs">
-    
-<div class="topo-org">
-    <img src="img/furia.png" alt="Furia">
-    <h2>Furia  </h2>
-</div>
-<p>
-    A Furia é uma organização brasileira 
-    de eSports fundada em 2017. Ela é conhecida por
-     sua presença em jogos como Counter-Strike:
-      Global Offensive (CS:GO), League of Legends,
-       Rainbow Six Siege, entre outros. A Furia tem
-        se destacado no cenário competitivo, conquistando
-         títulos e participando de grandes torneios
-          internacionais.
-</p>
-<div class="Botao-Org">
-    <button>Ver mais</button>
-    <button>Estatisticas</button>
-</div>
-</article>
-<div class="box">
-
-<div class="times">
-    <img src="img/mibr.jpg" alt="MIBR">
-    <h2>MIBR</h2>
-</div>
-<div class="times">
-    <img src="img/loud.jpg" alt="Loud">
-    <h2>Loud</h2>
-</div>
-<div class="times">
-    <img src="img/alanzoka.jpg" alt="Zokinhas">
-    <h2>Zoka</h2>
-</div>
-</div>
-
-<footer>
-   <h2>Nosso projeto Website (ScoutLink)</h2>
-   <p>Todos os direitos reservados de produção vão para o grupo ScoutLink: Guilherme, Leonardo, Maria, Vinicius.</p>
-<form name="dados" id="dados" action="sucesso.html" method="post">
-   <fieldset>
-      <legend>Dados do usuário</legend>
-      <label for="email">E-mail:</label>
-      <input type="email" id="email" name="email" placeholder="Nome@gmail.com">
-       <label for="celular">Celular:</label>
-      <input type="tel" id="celular" name="celular" placeholder="(00) 00000-0000">
-      <h3>FEEDBACK</h3>
-      <h4>deixe sua opinião</h4>
-       <label for="mensagem">Digite sua mensagem:</label>
-       <br>
-        <textarea id="mensagem" name="mensagem" placeholder="Coloque sua mensagem aqui..."></textarea>
-        <br>
-        
-        <button  type="submit" onclick="alert ('formulario enviado com sucesso')">Enviar Dados</button>
-        <button type="reset">Limpar Formulário</button>
-   </fieldset>
-</form>
-</footer>
-
-</div>
+    </div>
 </body>
-</html>
 
+</html>

@@ -1,61 +1,107 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XYZSYS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="./org.css">
+    <title>ScoutLink</title>
 </head>
-    <body>
-        <header class="header">
-            <h1>XYZ<span class="logo">SYS</span></h1>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Clientes</a></li>
-                    <li><a href="">Soluções</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Cases</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <section class="hero">
-            <h3>DIGITAL CREATIVE</h3>
-            <h2>XYZ/SYSTEM</h2>
-            <h4>Technologic Solutions</h4>
-        </section>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="/video/7249-199191048_medium.mp4" type="video/mp4">
+    </video>
 
-        <section class="solutions">
+    <header class="parte-de-cima">
 
-            <div class="solution-item">
-                <img src="./images/web.png" alt="icone web">
-                <h3>Web</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae laudantium maxime.</p>
-                <a href="" class="btn">Mais informações</a>
-            </div>
+        <nav class="menu">
+            <a href="../../index.html">Inicio</a>
+            <a href="../Organização/organização.html">Organização</a>
+            <a href="../Talentos/talento.html">Talento</a>
+            <a href="../Sobre/sobre.html">Sobre</a>
 
-            <div class="solution-item">
-                <img src="./images/mobile.png" alt="icone mobile">
-                <h3>Mobile</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae laudantium maxime.</p>
-                <a href="" class="btn">Mais informações</a>
-            </div>
+        </nav>
+    </header>
+    <details class="menu-perfil">
+        <summary> <i class="fa-solid fa-user"></i></summary>
+        <div class="menu-perfil-opcao">
+            <ul>
+                <li><a href="../../paginas/Perfil/perfil.html">Meu Perfil</a></li>
 
-            <div class="solution-item">
-                <img src="./images/bigdata.png" alt="icone big data">
-                <h3>Big Data</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae laudantium maxime.</p>
-                <a href="" class="btn">Mais informações</a>
-            </div>
+                <li><a href="../../paginas/Cadastro/cadastro.html">Cadastrar</a></li>
 
-            <div class="solution-item">
-                <img src="./images/cloud.png" alt="icone cloud">
-                <h3>Cloud</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae laudantium maxime.</p>
-                <a href="" class="btn">Mais informações</a>
-            </div>
-        </section>
-    </body>
+                <li><a href="../../paginas/Login/login.html">Login</a></li>
+
+            </ul>
+        </div>
+    </details>
+
+     <header class="topo">
+        <h1>Jogadores</h1>
+        <img src="/img/ScoutLink-Logo.png" alt="ScoutLink Logo" width="10" title="ScoutLink Logo">
+        </a>
+    </header>
+
+    <h2>Organizações </h2>
+    <article class="Orgs">
+        <p>
+            Organizações são entidades fundamentais no cenário competitivo de games, como eSports,
+             e de criação de conteúdo. Elas desempenham um papel crucial ao fornecer suporte, estrutura
+              e oportunidades para jogadores, equipes e criadores de conteúdo. Na plataforma ScoutLink,
+               as organizações podem criar perfis detalhados, destacando suas  conquistas, valores e áreas 
+               de atuação. Através da plataforma, as organizações têm a chance de se conectar com jogadores 
+               talentosos, equipes promissoras e criadores de conteúdo em busca de oportunidades de parceria
+                e crescimento. A ScoutLink é um espaço onde as organizações podem se destacar, encontrar 
+                talentos e construir uma presença sólida no mundo dos games competitivos e da criação de 
+                conteúdo.
+        </p>
+
+    </article>
+    <div class="box">
+
+
+        <div class="ScoutLink">
+            <img src="/img/loud.jpg">
+            <p> Loud</p>
+
+        </div>
+
+        <div class="ScoutLink">
+            <img src="/img/furia.png">
+            <p> Furia</p>
+        </div>
+
+        <div class="ScoutLink">
+            <img src="/img/mibr.jpg">
+            <p> Mibr</p>
+
+        </div>
+<footer>
+        <h2>Nosso projeto Website (ScoutLink)</h2>
+        <p>Todos os direitos reservados de produção vão para o grupo ScoutLink: Guilherme, Leonardo, Maria, Vinicius.
+        </p>
+        <form name="dados" id="dados" action="" method="post">
+            <fieldset>
+                <legend>Dados do usuário</legend>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Nome@gmail.com" required>
+                <label for="celular">Celular:</label>
+                <input type="tel" id="celular" name="celular" placeholder="(00) 00000-0000" required>
+                <h3>FEEDBACK</h3>
+                <h4>deixe sua opinião</h4>
+                <label for="mensagem">Digite sua mensagem:</label>
+                <br>
+                <textarea id="mensagem" name="mensagem" placeholder="Coloque sua mensagem aqui..."></textarea>
+                <br>
+
+                <button type="submit" onclick="alert ('formulario enviado com sucesso')">Enviar Dados</button>
+                <button type="reset">Limpar Formulário</button>
+            </fieldset>
+        </form>
+    </footer>
+        
+</body>
+
 </html>

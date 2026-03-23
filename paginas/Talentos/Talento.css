@@ -1,4 +1,3 @@
-
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
@@ -6,65 +5,83 @@ h1 {
     font-size: 60px;
 }
 
-header {
-     display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  margin: 20px 20px 20px 800px;
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    scale: 100%;
+    font-size: 80px;
+    color: #ffffff;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px 20px 20px 800px;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.754);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 25px;
+}
 
 header img {
-width: 200px;
-height: 150px;
-border-radius: 5px;
-transform: scale(1.05);
+    z-index: -1;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    transform: scale(1.05);
 
 
 }
 
-body{
+body {
     position: relative;
     z-index: 1;
-    font-family: 'Poppins', sans-serif ;
+    font-family: 'Poppins', sans-serif;
     text-align: left;
-     background-image: url('/img/ScoutLink-Logo.png');
-     background-repeat: no-repeat;
-   background-position: 40% 10%;
-    background-attachment: fixed;
-    margin: 0;
-    padding-top: 80px;
-    
 }
 
 #bg-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
-nav a{
+nav a {
     margin: 10px;
     color: white;
     border: 200px;
     padding: 8px 12px;
-  border-radius: 5px;
-  font-size: 20px;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
-.parte-de-cima{
+.parte-de-cima {
     display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-.menu{
+.menu {
     text-align: center;
     background-color: black;
     width: 100%;
@@ -72,14 +89,14 @@ nav a{
     top: 0;
 }
 
-.menu{
-word-spacing: 200px;
+.menu {
+    word-spacing: 200px;
     text-align: center;
     margin-top: 10px;
     background-color: rgb(0, 0, 0);
     position: fixed;
     top: 0;
-    left: 0;   
+    left: 0;
     width: 100%;
     z-index: 1000;
     display: flex;
@@ -108,46 +125,47 @@ word-spacing: 200px;
 }
 
 .menu-perfil summary {
-  text-align: center;
-  font-size: 30px;
-  position: fixed;
-  right: 50px;
-  top: 20px;
-  z-index: 2000;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 10px;
-  color: #000000;
-  transition: .5s;
-  width: 50px;
-  height: 4%;
-  background-color: #dc143c;
-  list-style: none;
-  cursor: pointer;
-  position: fixed;
-  top: 14px;
-  right: 100px;
-  z-index: 2000;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    right: 50px;
+    top: 20px;
+    z-index: 2000;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000;
+    transition: .5s;
+    width: 50px;
+    height: 4%;
+    background-color: #dc143c;
+    list-style: none;
+    cursor: pointer;
+    position: fixed;
+    top: 14px;
+    right: 100px;
+    z-index: 2000;
 }
 
 .menu-perfil summary:hover {
-  background-color: #6e0909;
-  color: #fff;
-  border-color: transparent;
-  transform: scale(1.05);
+    background-color: #6e0909;
+    color: #fff;
+    border-color: transparent;
+    transform: scale(1.05);
 }
+
 .menu-perfil-opcao {
-        position: fixed;
+    position: fixed;
     top: 80px;
     right: 0;
     border-radius: 10px;
     padding: 10px;
     width: 180px;
-  background-color: rgba(126, 7, 7, 0.9);
+    background-color: rgba(126, 7, 7, 0.9);
 }
 
 
-.menu-perfil-opcao a { 
+.menu-perfil-opcao a {
     cursor: pointer;
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -157,36 +175,26 @@ word-spacing: 200px;
     transition: 0.3s;
 }
 
-.menu-perfil-opcao ul{
+.menu-perfil-opcao ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.menu-perfil-opcao a:hover{
-transform: scale(1.05);
-background-color: #6e0909;
-  color: #fff;
-  border-color: transparent;
+.menu-perfil-opcao a:hover {
+    transform: scale(1.05);
+    background-color: #6e0909;
+    color: #fff;
+    border-color: transparent;
 }
 
 
-.ScoutLink{
-    display: flex;
-background-color: white;
-width: 500px;
-height: 120px;
-padding: 7px;
-transition: 0.3s;
-border-radius:  20px;
-margin: 5px 35px;
-border: darkred solid 4px;
-}
+
 
 
 .icon {
     border: 1px solid #666;
-    padding:15px;
+    padding: 15px;
     border-radius: 5px;
     font-size: 35px;
     margin: 0 20px;
@@ -200,15 +208,51 @@ border: darkred solid 4px;
     border-color: red;
     border: 4px solid red;
 }
+
 .perfil ion-icon {
-  font-size: 30px;
+    font-size: 30px;
+}
+
+.Orgs {
+    background-color: rgba(197, 12, 6, 0.806);
+    display: flex;
+    justify-content: justify;
+    margin: 10px 50px 100px 50px;
+    width: 95%;
+    padding: 20px 10px 10px 0px;
+    border-color: #6e0909 solid 4px;
+    border-radius: 50px;
+}
+
+.Orgs p {
+    justify-content: justify;
+    font-size: 20px;
+    gap: 50px;
+    margin: 20px 50px 20px 20px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 100px;
+
+}
+
+.times {
+
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 
 .Botao-Org {
     margin-top: 15px;
-} 
-.Botao-Org button{
+}
+
+.Botao-Org button {
     margin-right: 10px;
     padding: 8px 15px;
     border: none;
@@ -217,23 +261,47 @@ border: darkred solid 4px;
     color: white;
     cursor: pointer;
     transition: 0.3s;
-} 
+}
+
 .Botao-Org button:hover {
-    background-color:darkred;
+    background-color: darkred;
     transform: scale(1.05);
 }
 
 .ScoutLink img {
     display: flex;
- width: 100px;
-height: 100px;
-border-radius: 50%;
-margin: 10px;
-border: black solid 2px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    border: black solid 2px;
+
 }
 
 .ScoutLink p {
     font-size: 30px;
     color: black;
     margin: 40px
+}
+
+.ScoutLink {
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: 120px;
+    padding: 7px;
+    transition: 0.3s;
+    border-radius: 20px;
+    margin: 5px 35px;
+    border: darkred solid 4px;
+    justify-content: space-evenly;
+    gap: 100px;
+
+}
+
+.ScoutLink:hover {
+    background-color: #dc143c;
+    color: #fff;
+    border-color: red;
+    transform: scale(1.05);
 }

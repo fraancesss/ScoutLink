@@ -1,76 +1,69 @@
-
 a img {
     color: rgb(247, 3, 3);
     margin-left: 800px;
-    
+
 }
 
 a {
     color: rgb(193, 39, 39);
-    
+
 }
 
 
-p{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 18px;
     line-height: 1.5;
     text-align: justify;
     margin: 45px;
-    color: #000000;
-    
+    color: #fff6f6;
+
 }
 
 h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 60px;
     margin-left: 20px;
 }
 
 header img {
-width: 200px;
-height: 150px;
-border-radius: 5px;
-transform: scale(1.05);
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    transform: scale(1.05);
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
-body{
+body {
     position: relative;
     z-index: 1;
-    background-color: #b4b4b4;
-    font-family: 'Poppins', sans-serif ;
-    text-align: left;
-     background-image: url('../img/ScoutLink-Logo.png');
-     background-repeat: no-repeat;
-   background-position: 40% 10%;
-    background-attachment: fixed;
-    margin: 0;
+    font-family: 'Poppins', sans-serif;
     padding-top: 80px;
-    
+
 }
 
 #bg-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 
-nav a{
+nav a {
     margin: 10px;
     color: white;
     border: 200px;
     padding: 8px 12px;
-  border-radius: 5px;
+    border-radius: 5px;
+     font-size: 20px;
 }
 
 footer {
@@ -81,92 +74,109 @@ footer {
     position: static;
     bottom: 0;
     height: 50%;
-   
-}
-footer p {
-    color: #ffffff;
-   font-size: 25px;
+
 }
 
- .times {
-  background-color: #c31313bb;
-           width: 120px;
-           height: 180px;
-           padding: 40px;
-           border: 1px solid #c80e0e;
-           font-size: 25px;
-           text-align: center;
-           border-radius: 5px;
-           display: inline-block;
-           Align-items: stretch;
+footer p {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.Logo-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 80%;
+    transform: translateX(-60%);
+    z-index: 1000;
+
+
+}
+
+.times {
+    background-color: #c31313bb;
+    width: 120px;
+    height: 180px;
+    padding: 40px;
+    border: 1px solid #c80e0e;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    Align-items: stretch;
 }
 
 .times img {
-  border-radius: 5px;
-width: 120px; 
+    border-radius: 5px;
+    width: 120px;
 }
 
 .box {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 100px;
 }
-   
- 
-.parte-de-cima{
+
+
+.parte-de-cima {
     display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-.main{
+.main {
     text-align: center;
     width: 50%;
     height: 200px;
     margin-top: 20px;
     border-radius: 10px;
     color: rgb(0, 0, 0);
-    
+
 }
+
 .main p {
     font-size: 120px;
-    
-}
-    
 
-.ScoutLink{
-margin: 20px 30px 40px 50px;
-background-color: rgb(143, 16, 16);
-width: 90%;
-max-width: 1000px;
-height: auto;
-padding: 7px;
-transition: 0.3s;
-border-radius:  10px;
-background-attachment: fixed;
-overflow: hidden;
+}
+
+
+.ScoutLink {
+    margin: 20px 30px 40px 50px;
+    background-color: rgb(143, 16, 16);
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    padding: 7px;
+    transition: 0.3s;
+    border-radius: 10px;
+    background-attachment: fixed;
+    overflow: hidden;
     padding: 10px;
     box-shadow: #000000 0px 10px 20px;
     font-size: 50px;
 }
-.ScoutLink p{
+
+.ScoutLink p {
     font-size: 35px;
-    
+    color: #000000;
+
 }
 
 
-.Profissional{
-margin: 170px 30px 200px 50px;
-position: relative;
-background-color: rgba(159, 2, 2, 0.56);
- right: 0px;
-height: 150px;
-margin-left: 500px;
-border-radius:  10px;
-background-attachment: fixed;
-overflow: hidden;
+.Profissional {
+    margin: 170px 30px 200px 50px;
+    position: relative;
+    background-color: rgba(159, 2, 2, 0.56);
+    right: 0px;
+    height: 150px;
+    margin-left: 500px;
+    border-radius: 10px;
+    background-attachment: fixed;
+    overflow: hidden;
     padding: 10px;
     box-shadow: #000000 0px 10px 20px;
 }
@@ -179,7 +189,7 @@ overflow: hidden;
     letter-spacing: 30px;
 }
 
-.Profissional-Org h1{
+.Profissional-Org h1 {
     font-size: 80px;
     background-color: rgba(159, 2, 2, 0.56);
     color: #000000;
@@ -188,38 +198,41 @@ overflow: hidden;
 
 }
 
-.Orgs{
-  background-color: rgba(225, 20, 13, 0.806);
-   display: flex;
-   justify-content: center;
-   margin: 100px 50px 100px 50px;
+.Orgs {
+    background-color: rgba(225, 20, 13, 0.806);
+    display: flex;
+    justify-content: center;
+    margin: 100px 50px 100px 50px;
     width: 95%;
-    padding: 20px 10px  10px 20px;
+    padding: 20px 10px 10px 20px;
 }
 
-.topo-org{
+.topo-org {
     display: flex;
-  align-items: center;
-  gap: 15px;
+    align-items: center;
+    gap: 15px;
 }
 
 .topo-org img {
-width: 80px; 
-} 
+    width: 80px;
+}
+
 .topo-org h2 {
-font-size: 40px;
-gap: 50px; 
-} 
+    font-size: 40px;
+    gap: 50px;
+}
+
 .Orgs p {
-font-size: 20px;
-gap: 50px; 
-margin: 20px 50px 20px 200px;
-} 
+    font-size: 20px;
+    gap: 50px;
+    margin: 20px 50px 20px 200px;
+}
 
 .Botao-Org {
     margin-top: 15px;
-} 
-.Botao-Org button{
+}
+
+.Botao-Org button {
     margin-right: 10px;
     padding: 8px 15px;
     border: none;
@@ -228,55 +241,56 @@ margin: 20px 50px 20px 200px;
     color: white;
     cursor: pointer;
     transition: 0.3s;
-} 
+}
+
 .Botao-Org button:hover {
-    background-color:darkred;
+    background-color: darkred;
     transform: scale(1.05);
 }
 
 
 .menu-perfil summary {
-  text-align: center;
-  font-size: 30px;
-  position: fixed;
-  right: 50px;
-  top: 20px;
-  z-index: 2000;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 10px;
-  color: #000000;
-  transition: .5s;
-  width: 50px;
-  height: 4%;
-  background-color: #dc143c;
-}
-.menu-perfil summary {
-  list-style: none;
-  cursor: pointer;
-  position: fixed;
-  top: 14px;
-  right: 100px;
-  z-index: 2000;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    right: 50px;
+    top: 20px;
+    z-index: 2000;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000;
+    transition: .5s;
+    width: 50px;
+    height: 4%;
+    background-color: #dc143c;
+    list-style: none;
+    cursor: pointer;
+    position: fixed;
+    top: 14px;
+    right: 100px;
+    z-index: 2000;
 }
 
 .menu-perfil summary:hover {
-  background-color: #6e0909;
-  color: #fff;
-  border-color: transparent;
-  transform: scale(1.05);
+    background-color: #6e0909;
+    color: #fff;
+    border-color: transparent;
+    transform: scale(1.05);
 }
+
 .menu-perfil-opcao {
-    position: absolute;
+    position: fixed;
+    top: 80px;
     right: 0;
-    border-radius: 10px;
+     border-radius: 10px;
     padding: 10px;
     width: 180px;
-  background-color: rgba(126, 7, 7, 0.9);
+    background-color: rgba(126, 7, 7, 0.9);
 }
 
 
-.menu-perfil-opcao a { 
+.menu-perfil-opcao a {
     cursor: pointer;
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -286,27 +300,32 @@ margin: 20px 50px 20px 200px;
     transition: 0.3s;
 }
 
-.menu-perfil-opcao ul{
+.menu-perfil-opcao ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.menu-perfil-opcao a:hover{
-transform: scale(1.05);
-background-color: #6e0909;
-  color: #fff;
-  border-color: transparent;
+.menu-perfil-opcao a:hover {
+    transform: scale(1.05);
+    background-color: #6e0909;
+    color: #fff;
+    border-color: transparent;
 }
 
-.menu{
-word-spacing: 200px;
+.menu {
+      text-align: center;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    word-spacing: 200px;
     text-align: center;
     margin-top: 10px;
     background-color: rgb(0, 0, 0);
     position: fixed;
     top: 0;
-    left: 0;   
+    left: 0;
     width: 100%;
     z-index: 1000;
     display: flex;
