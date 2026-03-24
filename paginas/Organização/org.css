@@ -232,9 +232,11 @@ nav a {
     padding: 20px 10px 10px 0px;
     border-color: #6e0909 solid 4px;
     border-radius: 50px;
+
 }
 
 .Orgs p {
+    color: #fff;
     justify-content: justify;
     font-size: 20px;
     gap: 50px;

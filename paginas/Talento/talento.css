@@ -236,6 +236,7 @@ nav a {
 }
 
 .Orgs p {
+color: #fff;
     justify-content: justify;
     font-size: 20px;
     gap: 50px;

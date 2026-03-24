@@ -44,6 +44,10 @@ footer {
 
 }
 
+label {
+    color: #fff;
+}
+
 footer p {
     color: #ffffff;
     font-size: 25px;
@@ -191,7 +195,7 @@ h2 {
     cursor: pointer;
     padding: 10px;
     border-radius: 10px;
-    color: #000000;
+    color: #ffffff;
     transition: .5s;
     width: 50px;
     height: 4%;
@@ -230,7 +234,7 @@ h2 {
 .menu-perfil-opcao a {
     cursor: pointer;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 25px;
     padding: 8px;
     border-radius: 5px;

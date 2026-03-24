@@ -74,7 +74,7 @@ body {
     cursor: pointer;
     padding: 10px;
     border-radius: 10px;
-    color: #000000;
+    color: #ffffff;
     transition: .5s;
     width: 50px;
     height: 4%;
@@ -108,7 +108,7 @@ body {
 .menu-perfil-opcao a {
     cursor: pointer;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 25px;
     padding: 8px;
     border-radius: 5px;
@@ -124,7 +124,7 @@ body {
 .menu-perfil-opcao a:hover {
     transform: scale(1.05);
     background-color: #6e0909;
-    color: #fff;
+    color: #ffffff;
     border-color: transparent;
 }
 
@@ -149,7 +149,7 @@ body {
 
 .card {
     background: rgb(218, 16, 16);
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 15px;
     width: 300px;
@@ -161,7 +161,9 @@ body {
     border-radius: 50%;
 }
 
-
+label, legend, h3, h4, h2, p {
+    color: #fff;
+}
 footer {
     background: rgba(0,0,0,0.8);
     text-align: center;
@@ -172,6 +174,7 @@ input, textarea {
     width: 90%;
     margin: 10px;
     padding: 10px;
+
 }
 
 button {
