@@ -7,7 +7,8 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     scale: 100%;
-    font-size: 60px;
+    font-size: 80px;
+    color: #fff;
 }
 
 body {
@@ -60,25 +61,6 @@ nav a{
   border-radius: 5px;
   font-size: 20px;
 }
-
-
-.ScoutLink{
-    display: flex;
-    justify-content: center;
-height: 400px;
-padding: 7px;
-transition: 0.3s;
-border-radius:  20px;
-}
-
-.ScoutLink p {
-    font-size: 27px;
-    color: black;
-    text-align: center;
-    overflow: auto;
-    margin: 10px 150px;
-}
-
 
 
 .menu {
@@ -189,4 +171,76 @@ border-radius:  20px;
     color: #fff;
     border-color: transparent;
     border: 2px solid #ff0000 ;
+}
+
+img {
+    max-width: 100%;
+    height: 400px;;
+    
+}
+
+.box-cadastro {
+    justify-content: center;
+    margin-top: 0px;
+    margin-right: 5px;
+    background-color: rgba(160, 43, 43, 0.658);
+    width: 1200px;
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin-left: 300px;
+margin-top: 100px;
+}
+
+
+
+
+h2 {
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+}
+
+.box-cadastro p {
+    font-size: 25px;
+    color: black;
+    justify-content: center;
+}
+
+
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+
+
+.times {
+    background-color: #c31313bb;
+    width: 220px;
+    height: 460px;
+    padding: 40px;
+    border: 1px solid #c80e0e;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    Align-items: stretch;
+}
+
+.times img {
+    border-radius: 5px;
+     max-width: 100%;
+    height: 300px;
 }

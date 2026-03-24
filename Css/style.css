@@ -97,7 +97,7 @@ footer p {
 
 .times {
     background-color: #c31313bb;
-    width: 120px;
+    width: 170px;
     height: 180px;
     padding: 40px;
     border: 1px solid #c80e0e;
@@ -230,6 +230,7 @@ footer p {
 
 .Botao-Org {
     margin-top: 15px;
+
 }
 
 .Botao-Org button {
@@ -241,6 +242,7 @@ footer p {
     color: white;
     cursor: pointer;
     transition: 0.3s;
+    width: 120px;
 }
 
 .Botao-Org button:hover {
