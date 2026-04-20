@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Fredoka One, cursive;
+  background: #0d0d0d;
+  color: white;
+}
+
+nav {
+  font-size: 25px;
+  padding: 10px 20px;
+}
+nav .btn {
+  background: #9b2020;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-size: 30px;
+  
+}
+
+.logo-navbar {
+  height: 100px;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+
+
+.titulo {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+  color: #9b2020;
+  display: inline-block;
+}
+
+
+.texto-box {
+  background: #9b2020;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+
+.card-org {
+  background: #262626;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: 0.3s;
+  margin-bottom: 201px;
+}
+
+.card-org img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain; 
+  border-radius: 10px;
+}
+
+.card-org h5 {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #000000;
+  background-color: #9b2020;
+}
+
+.card-org:hover {
+  transform: scale(1.05);
+}
+
+
+.rodape {
+  background: black;
+  text-align: center;
+  padding: 15px;
+  color: gray;
+}

@@ -1,142 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="./Css/style.css">
-    <title>ScoutLink</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ScoutLink</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="pagina-index.css">
 </head>
 
 <body>
 
-    <video autoplay muted loop id="bg-video">
-        <source src="video/7249-199191048_medium.mp4" type="video/mp4">
-    </video>
 
-    <div class="Logo-img">
-        <img src="img/ScoutLink-Logo.png" alt="ScoutLink Logo">
-    </div>
-    <header class="parte-de-cima">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
 
-        <nav class="menu">
-            <a href="index.html">Inicio</a>
-            <a href="paginas/Organizacao/organizacao.html">Organização</a>
-            <a href="paginas/Talento/talento.html">Talento</a>
-            <a href="paginas/Sobre/sobre.html">Sobre</a>
-
-            <details class="menu-perfil">
-                <summary> <i class="fa-solid fa-user"></i></summary>
-                <div class="menu-perfil-opcao">
-                    <ul>
-
-                        <li><a href="paginas/Cadastro/cadastro.html">Cadastrar</a></li>
-
-                        <li><a href="paginas/Login/login.html">Login</a></li>
-
-                    </ul>
-                </div>
-            </details>
-        </nav>
-    </header>
+    <a class="navbar-brand" href="#">
+      <img src="/img/ScoutLink-Logo.png" class="logo-navbar " alt="Logo do ScoutLink">
+    </a>
 
 
-    <main class="main">
-        <p>ScoutLink</p>
-    </main>
+    <ul class="navbar-nav ms-auto d-flex flex-row gap-3">
+      <li class="nav-item"><a class="nav-link active" href="#">Início</a></li>
+      <li class="nav-item"><a class="nav-link" href="/paginas/Talento/talento.html">Talento</a></li>
+      <li class="nav-item"><a class="nav-link" href="/paginas/Organizacoes/organizacoes.html">Organizações</a></li>
+      <li class="nav-item"><a class="nav-link" href="/paginas/Sobre/sobre.html">Sobre</a></li>
+    </ul>
+
+    <button onclick="irEntrar()" class="btn_perfil btn-danger ms-3">Login</button>
+  </nav>
 
 
 
 
-    <section class="ScoutLink">
-        <p> O projeto
-            <strong>SCOUTLINK</strong>
-            desenvolvido pelo grupo
-            consiste na criação de uma aplicação web chamada ScoutLink,
-            voltada para o cenário competitivo de games, como eSports,
-            e de criação de conteúdo também. A proposta da plataforma é
-            uma ponte entre jogadores talentosos que desejam iniciar uma
-            carreira profissional no mundo dos games e entrar em organizações
-            ou equipes que estão em busca de novos talentos.
-    </section>
+  <div class="text-center mt-5">
+    <p class="frase">
+      Conectando jogadores ao cenário profissional de eSports.
+      <br>
 
-    <section class="Profissional">
-        <p>
-            <strong>Vire um profissional</strong>
-        </p>
-    </section>
+      <button onclick="irCadastrar()" class="btn_perfil btn-danger ms-3">Cadastrar</button>
+    </p>
 
-    <section class="Profissional-Org">
-
-        <h1>Organizações em Destaque</h1>
-
-    </section>
+  </div>
 
 
-    <article class="Orgs">
+  <div class="banner text-center">
+    <h1>Vire um profissional</h1>
+  </div>
 
-        <div class="topo-org">
-            <img src="img/furia.png" alt="Furia">
-            <h2>Furia </h2>
+
+  <div class="container mt-5">
+    <div class="row align-items-center">
+
+
+      <div class="col-12 col-md-4">
+        <div class="perfil-card">
+
+          <div class="foto"><img src="/img/foto verde.jpeg" alt="Jogador Gui" class="img-fluid"></div>
+
+          <div class="caixa_info text-center">
+            <h4>GUILHERME</h4>
+            
+            <img src="/img/image copy 2.png" alt="Logo Valorant" class="img-fluid w-25 mb-2"><br>
+            <button onclick="irJogador()" class="btn btn-outline-danger btn-sm">Ver Mais</button> 
+
+
+          </div>
+
         </div>
-        <p>
-            A Furia é uma organização brasileira
-            de eSports fundada em 2017. Ela é conhecida por
-            sua presença em jogos como Counter-Strike:
-            Global Offensive (CS:GO), League of Legends,
-            Rainbow Six Siege, entre outros. A Furia tem
-            se destacado no cenário competitivo, conquistando
-            títulos e participando de grandes torneios
-            internacionais.
-        </p>
-        <div class="Botao-Org">
-            <a href="paginas/Organização/organização.html">
-                <button>Ver mais</button>
-            </a>
-        </div>
-    </article>
-    <div class="box">
+      </div>
 
-        <div class="times">
-            <img src="img/mibr.jpg" alt="MIBR">
-            <h2>MIBR</h2>
-        </div>
-        <div class="times">
-            <img src="img/loud.jpg" alt="Loud">
-            <h2>Loud</h2>
-        </div>
-        <div class="times">
-            <img src="img/images (1).png" alt="Leviathan">
-            <h2>Leviathan</h2>
-        </div>
-    </div>
-
-<footer>
-        <h2>Nosso projeto Website (ScoutLink)</h2>
-        <p>© Grupo ScoutLink: Guilherme, Leonardo, Maria, Vinicius
-        <form action="sucesso.html" method="get">
-            <fieldset>
-                <legend>Dados do usuário</legend>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="Nome@gmail.com" required>
-                <label for="celular">Celular:</label>
-                <input type="tel" id="celular" name="celular" placeholder="(00) 00000-0000" required>
-                <h3>FEEDBACK</h3>
-                <h4>deixe sua opinião</h4>
-                <label for="mensagem">Digite sua mensagem:</label>
-                <br>
-                <textarea id="mensagem" name="mensagem" placeholder="Coloque sua mensagem aqui..."></textarea>
-                <br>
-
-                <button type="submit" onclick="alert ('formulario enviado com sucesso')">Enviar Dados</button>
-                <button type="reset">Limpar Formulário</button>
-            </fieldset>
-        </form>
-    </footer>
+      <div class="perfil-card col-12 col-md-8 text-center">
+        <video class="img-fluid" controls>
+          <source src="/video/video tela inicial.mp4" type="video/mp4">
+          Seu navegador não suporta vídeo.
+        </video>
+      </div>
 
     </div>
+  </div>
+
+
+  <div class="container text-center mt-5">
+
+    <h4 class="titulo">
+      ORGANIZAÇÕES COM MAIS CONTRATOS
+    </h4>
+
+    <div class="row mt-4">
+
+      <div class="col-12 col-md-4">
+        <div class="org-card">
+          <div class="org-img"><img src="/img/furia.png" alt="Logo FURIA" class="img-fluid"> </div>
+          <button onclick="irFuria()" class="btn_org btn-danger ms-3">Furia</button>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="org-card">
+          <div class="org-img"><img src="/img/sem fundo mibr.png" alt="Logo MIBR" class="img-fluid"></div>
+          <button onclick="irMibr()" class="btn_org btn-danger ms-3">Mibr</button>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="org-card">
+          <div class="org-img"><img src="/img/sem fundo loud.png" alt="Logo LOUD" class="img-fluid"></div>
+          <button onclick="irLoud()" class="btn_org btn-danger ms-3">Loud</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <footer class="rodape mt-5">
+    <p>© 2026 ScoutLink | Criado por Guilherme, Maria, Leonardo e Vinicius</p>
+  </footer>
+
+  <script src="/js/funcoes.js"></script>
+
 </body>
 
 </html>
