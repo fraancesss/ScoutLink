@@ -1,38 +1,28 @@
 function validarCadastro() {
+  let nome = document.getElementById('nome').value;
+  let email = document.getElementById('email').value;
+  let telefone = document.getElementById('telefone').value;
+  let senha = document.getElementById('senha').value;
 
-  let nome = document.getElementById("nome").value;
-  let email = document.getElementById("email").value;
-  let telefone = document.getElementById("telefone").value;
-  let senha = document.getElementById("senha").value;
-
-
-  let nomeValido = /^[A-Za-zÀ-ú\s]+$/;
-
-  if (!nomeValido.test(nome)) {
-    alert("Nome deve conter apenas letras!");
+  if (nome === "" || email === "" || telefone === "" || senha === "") {
+    alert("Preencha todos os campos!");
     return;
   }
 
-
-  let telefoneValido = /^[0-9]+$/;
-
-  if (!telefoneValido.test(telefone)) {
-    alert("Telefone deve conter apenas números!");
+  if (!email.includes("@")) {
+    alert("Email inválido!");
     return;
   }
 
-
-  if (!email.includes("@") || !email.includes(".")) {
-    alert("Digite um email válido!");
+  if (senha.length < 6) {
+    alert("A senha deve conter pelo menos 6 caracteres!");
     return;
   }
 
-
-  if (senha.length < 4) {
-    alert("Senha muito curta!");
+  if (telefone.length < 10) {
+    alert("Telefone inválido!");
     return;
   }
 
   alert("Cadastro realizado com sucesso!");
-
 }
