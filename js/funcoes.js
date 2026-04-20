@@ -20,6 +20,4 @@
       window.location.href = "../../paginas";
     }
     function enviarFeedback() {
-  alert("Feedback enviado com sucesso!"),
-  window.location.href = "/../sucesso.html";
-    }
+  alert("Feedback enviado com sucesso!");    }
