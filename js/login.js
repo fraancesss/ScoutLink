@@ -12,5 +12,6 @@
 }
 
 function irCadastrar() {
-      window.location.href = "../Cadastro/cadastro.html";
+      window.location.href = "../../paginas/Cadastro/cadastro.html";
     }
+    

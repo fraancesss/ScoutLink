@@ -29,5 +29,5 @@ function validarCadastro() {
 
 
 function irEntrar() {
-      window.location.href = "../paginas/Login/login.html";
+      window.location.href = "../../paginas/Login/login.html";
     }
