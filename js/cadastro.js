@@ -26,3 +26,8 @@ function validarCadastro() {
 
   alert("Cadastro realizado com sucesso!");
 }
+
+
+function irEntrar() {
+      window.location.href = "../paginas/Login/login.html";
+    }

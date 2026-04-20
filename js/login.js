@@ -10,3 +10,7 @@
 
   alert("Login realizado!");
 }
+
+function irCadastrar() {
+      window.location.href = "../Cadastro/cadastro.html";
+    }
