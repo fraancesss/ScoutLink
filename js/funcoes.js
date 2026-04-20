@@ -5,19 +5,19 @@
       window.location.href = "../../paginas/Login/login.html";
     }
     function irLoud() {
-      window.location.href = "../../paginas/Loud/loud.html";
+      window.location.href = "../../paginas/Organizacao/organizacao.html";
     }
     function irFuria() {
-      window.location.href = "../../paginas/Furia/furia.html";
+      window.location.href = "../../paginas/Organizacao/organizacao.html";
     }
     function irMibr() {
-      window.location.href = "../../paginas/Mibr/mibr.html";
+      window.location.href = "../../paginas/Organizacao/organizacao.html";
     }
     function irJogador() {
-      window.location.href = "../../paginas/Jogador/jogador.html";
+      window.location.href = "../../paginas/Talento/talento.html";
     }
     function irPerfil() {
-      window.location.href = "../../paginas/Perfil/perfil.html";
+      window.location.href = "../../paginas";
     }
     function enviarFeedback() {
   alert("Feedback enviado com sucesso!"),
