@@ -5,13 +5,13 @@
       window.location.href = "paginas/Login/login.html";
     }
     function irLoud() {
-      window.location.href = "paginas/Organizacoes/organizacoes.html";
+      window.location.href = "paginas/Organizacao/organizacao.html";
     }
     function irFuria() {
-      window.location.href = "paginas/Organizacoes/organizacoes.html";
+      window.location.href = "paginas/Organizacao/organizacao.html";
     }
     function irMibr() {
-      window.location.href = "paginas/Organizacoes/organizacoes.html";
+      window.location.href = "paginas/Organizacao/organizacao.html";
     }
     function irJogador() {
       window.location.href = "paginas/Talento/talento.html";
