@@ -16,24 +16,6 @@ body {
 }
 
 
-nav {
-  font-size: 25px;
-  padding: 10px 20px;
-}
-nav .btn {
-  background: #9b2020;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  transition: 0.3s;
-  font-size: 30px;
-  
-}
-
-.logo-navbar {
-  height: 100px;
-}
-
 
 .form-cadastro {
   background: #9b2020;
@@ -78,14 +60,20 @@ nav .btn {
 }
 
 
-.nav-item {
-  margin-right: 10px;
-}
-
-
 .rodape {
   background: black;
   text-align: center;
   padding: 15px;
   color: gray;
+}
+
+.invalid-feedback {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.is-valid,
+.is-invalid {
+  border-width: 2px;
 }

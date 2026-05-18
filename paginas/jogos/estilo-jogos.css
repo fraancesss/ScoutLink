@@ -1,0 +1,74 @@
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.form-control, .input-group-text {
+    background-color: #404040 !important;
+    color: #ffffff !important;
+    border: 1px solid #555555 !important;
+}
+.form-control::placeholder {
+    color: #cccccc;
+}
+
+
+.btn-outline-danger {
+    background-color: #404040;
+    color: #ffffff;
+    border: none;
+    margin: 4px;
+    font-weight: bold;
+}
+.btn-outline-danger:hover, .btn-outline-danger.active {
+    background-color: #8c1111 !important;
+    color: #000000 !important;
+    box-shadow: none;
+}
+
+
+.bg-grid-jogos {
+    background-color: #262626;
+    border: 1px solid #333333;
+}
+
+
+.card-jogo-container {
+    background-color: #8c1111; 
+    padding: 10px;
+    border-radius: 4px;
+    transition: transform 0.2s;
+    width: 100%;
+    height: 480px;
+}
+.card-jogo-container:hover {
+    transform: scale(1.03);
+}
+
+
+.card-jogo-imagem-box {
+    background-color: #000000;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 2px;
+}
+.card-jogo-imagem-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+
+.card-jogo-titulo {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-top: 8px;
+    text-transform: uppercase;
+}

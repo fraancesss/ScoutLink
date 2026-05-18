@@ -15,23 +15,6 @@ body {
   z-index: -1;
 }
 
-nav {
-  font-size: 25px;
-  padding: 10px 20px;
-}
-nav .btn {
-  background: #9b2020;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  transition: 0.3s;
-  font-size: 30px;
-  
-}
-
-.logo-navbar {
-  height: 100px;
-}
 
 
 .titulo {
