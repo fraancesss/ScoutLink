@@ -1,4 +1,3 @@
-// Array com os dados das organizações
 const organizacoes = [
   {
     id: "FURIA",
