@@ -2,7 +2,7 @@ const jogosDisponiveis = [
   {
     nome: "Valorant",
     categoria: "fps",
-    imagem: "../../img/jogos/vava.png", // Altere para caminhos válidos de imagem se necessário
+    imagem: "../../img/jogos/vava.png", 
     descricao: "FPS tático competitivo da Riot Games."
   },
   {
