@@ -1,64 +1,85 @@
-const organizacoes = [
-  {
-    id: "FURIA",
-    nome: "FURIA",
-    imagem: "../../img/organizacoes/fufu.png",
-    vagas: ["CS GO", "Fortnite", "Valorant"]
-  },
-  {
-    id: "LOUD",
-    nome: "LOUD",
-    imagem: "../../img/organizacoes/loud.png",
-    vagas: ["CS GO", "Fortnite", "Valorant"]
-  },
-  {
-    id: "KRU",
-    nome: "KRÜ",
-    imagem: "../../img/organizacoes/kru.png",
-    vagas: ["CS GO", "Fortnite", "Valorant"]
-  },
-  {
-    id: "MIBR",
-    nome: "MIBR",
-    imagem: "../../img/organizacoes/mibr.png",
-    vagas: ["CS GO", "Fortnite", "Valorant"]
-  }
-];
+function carregarOrganizacoes(lista = organizacoes) {
 
+    const container =
+        document.getElementById("lista-organizacoes");
 
-function carregarOrganizacoes() {
-  const container = document.querySelector(".container.py-5");
-  container.innerHTML = ""; 
+    container.innerHTML = "";
 
-  organizacoes.forEach(org => {
-   
-    const tagsHTML = org.vagas.map(jogo => `<span>${jogo}</span>`).join("");
+    lista.forEach(org => {
 
-   
-    container.innerHTML += `
-      <div class="card-org mb-4">
-        <img src="${org.imagem}" alt="${org.nome}" class="logo-org" onerror="this.src='https://placehold.co/220x100/ffffff/000000?text=${org.nome}'">
-        
-        <div class="info-org">
-          <h3>Procura-se jogadores de</h3>
-          <div class="tags">
-            ${tagsHTML}
-          </div>
+        const jogos = org.vagas
+            .map(jogo => `<span>${jogo}</span>`)
+            .join("");
+
+        container.innerHTML += `
+
+        <div class="card-org">
+
+            <a href="../Orgs/${org.id}.html">
+
+                <div class="logo-org-container">
+                    <img src="${org.imagem}"
+                    class="logo-org">
+                </div>
+
+            </a>
+
+            <div class="info-org">
+
+                <div class="titulo-busca">
+                    Procura jogadores de
+                </div>
+
+                <div class="tags">
+                    ${jogos}
+                </div>
+
+                <small>
+                    Oportunidades:
+                    ${org.oportunidades}
+                </small>
+
+                <small>
+                    Jogadores contratados:
+                    ${org.contratados}
+                </small>
+
+            </div>
+
+            <button
+                class="btn-portifolio"
+                onclick="enviarPortifolio('${org.nome}')">
+
+                Enviar Portfólio
+
+            </button>
+
         </div>
-
-        <button class="btn-portifolio" onclick="enviarPortifolio('${org.id}')">
-          Enviar portfólio
-        </button>
-      </div>
-    `;
-  });
+        `;
+    });
 }
 
+function filtrarOrganizacoes() {
 
-function enviarPortifolio(nomeDaOrg) {
- 
-  window.location.href = "sucesso.html"; 
+    const pesquisa =
+        document
+        .getElementById("pesquisaOrg")
+        .value
+        .toLowerCase();
+
+    const resultado = organizacoes.filter(org =>
+        org.nome.toLowerCase()
+        .includes(pesquisa)
+    );
+
+    carregarOrganizacoes(resultado);
 }
 
+function enviarPortifolio(nome) {
+
+    alert(
+        "Portfólio enviado para " + nome
+    );
+}
 
 carregarOrganizacoes();
